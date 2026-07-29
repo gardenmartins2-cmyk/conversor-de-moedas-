@@ -1,0 +1,148 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 20px;
+    color: #17233D;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: underline;
+}
+
+.logo-image {
+    height: 500px;
+    width: 595px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+.button-header {
+    background: #6fb644;
+    border-radius: 20px;
+    height: 51px;
+    width: 124px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: black;
+}
+
+
+
+
+
+
+section {
+    display: inline-block;
+    position: absolute;
+
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+    margin-left: 140px;
+    margin-bottom: 50px;
+
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    width: 515px;
+    color: #4b505a;
+    margin-left: 140px;
+    margin-bottom: 60px;
+
+}
+
+
+botton {
+
+    color: #6fb644;
+    cursor: pointer;
+    margin-left: 140px;
+    margin-right: 0;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+
+
+
+
+
+}
+
+@media screen and (max-width:800px) {
+    main {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+
+
+
+    }
+
+    .logo-image {
+        width: 280px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    section {
+        position: static;
+        text-align: center;
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: normal;
+        margin: 40px;
+    }
+
+    p {
+        width: 300px;
+        margin: 40px;
+        line-height: normal;
+    }
+
+    botton {
+        margin: 0 auto;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: flex-end;
+        margin: 20px;
+    }
+}
+
+.button-header {
+    display: block;
+    width:90px;
+    height:40px;
+    font-size:14px;
+    border-radius:15px;
+}
