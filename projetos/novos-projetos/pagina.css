@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "poppins", sans-serif;
+    background-color: #B67690;
+
+
+}
+
+p {
+    color: rgb(254, 254, 255);
+    font-family: "lora", serif;
+     font-weight:400;
+    font-size:20px;
+    line-height:1.6;
+    margin-top:15px;
+}
+h1{
+    font-weight:600;
+    font-size:50px;
+    line-height:1.2;
+    color:#d7baab;
+    text-shadow: 10px 10px 10px rgba(191, 59, 149, 0.5);
+}
+
+main{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:70px;
+    min-height: calc(100vh- 90px)
+}
+
+img {
+    width: 350px;
+    height: auto;
+    
+}
+
+div{
+    display:inline-block;
+}
+
+header {
+    display:flex;
+    gap:32px;
+    padding: 25px 50px; 
+    background-color:#d7baab;
+}
+
+
+
+
+.link-menu {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color:#b67690;
+    margin-right: 32px;
+    cursor:pointer;
+
+}
+.botao{
+    font-weight:400;
+    font-size:22px;
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background-color:#d7baab;
+    color:#b67690;
+    border-radius:30px;
+    transition:0.3s ease; 
+    text-decoration:none;
+
+}
