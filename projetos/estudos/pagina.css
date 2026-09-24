@@ -55,6 +55,11 @@ header {
 }
 
 
+.menu-principal{
+    align-items:center;
+    left:50px;
+    border-radius:30px;
+}
 
 
 .link-menu {
@@ -67,6 +72,7 @@ header {
     cursor:pointer;
 
 }
+
 .botao{
     font-weight:400;
     font-size:22px;
