@@ -9,9 +9,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-       
-        <title >ConvertCurrencies</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <title>ConvertCurrencies</title>
 </head>
 
 <body>
@@ -20,9 +20,22 @@
     <main>
         <label>
             Converter <b>Em</b>
-            <select>
-                <option>
+            <select id="currency-two">
+
+                <option value="real">
                     R$- Real Brasileiro
+                </option>
+                <option value="dolar">
+                    US$- Dólar Americano
+                </option>
+                <option value="euro">
+                    €- Euro
+                </option>
+                <option value="libras">
+                    £- Libras Esterlinas
+                </option>
+                <option value="bitcoin">
+                    Bitcoin
                 </option>
             </select>
         </label>
@@ -31,44 +44,49 @@
             Converter <b>Para</b>
             <select class="currency-select">
                 <option value="dolar">
-                     US$- Dólar Americano
+                    US$- Dólar Americano
                 </option>
                 <option value="euro">
-                     €- Euro
+                    €- Euro
                 </option>
-            <option value="libras">
-                £- Libras Esterlinas
-            </option>
-             <option value="bitcoin">
-                Bitcoin
-            </option>
+                <option value="libras">
+                    £- Libras Esterlinas
+                </option>
+                <option value="bitcoin">
+                    Bitcoin
+                </option>
+
+                  <option value="real">
+                    R$- Real Brasileiro
+                </option>
 
             </select>
         </label>
 
         <label>
             Valor
-            <input class="input-currency"  placeholder="R$ 1000,00">
+            <input class="input-currency" placeholder="R$ 1000,00">
         </label>
 
         <button class="convert-button">Converter</button>
-   
 
-    <section>
-        <div class="currency-box">
-            <img src="./img/brasil 2.png" alt="logo-do-real">
-            <p class="currency"> Real</p>
-            <p class="currency-value-in-real">R$ 0,00</p>
-        </div>
 
-        <img class="arrow" src="./img/arrow.png" alt=" seta ">
-        <div class=" currency-box">
-            <img class= "currency-img" src="./img/dólar americano.png" alt="logo-do-dolar">
-            <p class="currency" id="currency-name"> Dólar Americano</p>
-            <p class="currency-value">US$ 0,00</p>
-        </div>
-    </section>
- </main>
+        <section>
+            <div class="currency-box">
+                <img src="./img/brasil 2.png" alt="logo-do-real">
+                <p class="currency"> Real</p>
+                <p class="currency-value-in-real">R$ 0,00</p>
+            </div>
+
+            <img class="arrow" src="./img/arrow.png" alt=" seta ">
+            <div class=" currency-box">
+                <img class="currency-img" src="./img/dólar americano.png" alt="logo-do-dolar">
+                <p class="currency" id="currency-name"> Dólar Americano</p>
+                <p class="currency-value">US$ 0,00</p>
+            </div>
+        </section>
+    </main>
 </body>
- <script src="./scrip.js"></script>
+<script src="./scrip.js"></script>
+
 </html>
